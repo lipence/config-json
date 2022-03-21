@@ -1,6 +1,6 @@
 github.com/Jeffail/gabs/v2 v2.6.1 h1:wwbE6nTQTwIMsMxzi6XFQQYRZ6wDc1mSdxoAN+9U4Gk=
 github.com/Jeffail/gabs/v2 v2.6.1/go.mod h1:xCn81vdHKxFUuWWAaD5jCTQDNPBMh5pPs9IJ+NcziBI=
-github.com/lipence/config v0.0.2 h1:JYBuFq6uAmc5wBvRUoE4Ow1Ya497cnJyJFpb/4jGM8E=
-github.com/lipence/config v0.0.2/go.mod h1:ReUuMvcBXVhWxxGkgPvyJ/+1d+oQ44fFN3Zfoi5Fhtw=
-github.com/lipence/utils v0.0.1 h1:3GVNge8eochnU10acL04ZoSYSwuEZZznvxUxnSIzoCA=
-github.com/lipence/utils v0.0.1/go.mod h1:DEf5PTj89+vI+B+ETG/qYJ253+Ea/QkP9HdC9O9vjJo=
+github.com/lipence/config v0.0.3 h1:kh1wiKZDiFm1L3g2ZpU0uHXNfUVaiE/0q6axuY14us8=
+github.com/lipence/config v0.0.3/go.mod h1:cb/gLBQIV86vrXt6iurU2qt38Cqsy1UrFppkxOhLB0k=
+github.com/lipence/utils v0.0.3 h1:P/ilnNccmyz0dnLgJoirMfHpNuht++DWinrfQ1yKUhs=
+github.com/lipence/utils v0.0.3/go.mod h1:DEf5PTj89+vI+B+ETG/qYJ253+Ea/QkP9HdC9O9vjJo=
