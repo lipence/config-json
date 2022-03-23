@@ -109,7 +109,7 @@ func (v *value) DecodeWithCtx(ctx context.Context, target interface{}) (err erro
 		return nil
 	}
 	var jBytes []byte
-	if jBytes, err = v.Json(); err != nil {
+	if jBytes, err = v.result.MarshalJSON(); err != nil {
 		return fmt.Errorf("%w: (position: %s)", err, v.Ref())
 	}
 	return json.Unmarshal(jBytes, target)
@@ -220,6 +220,6 @@ func (v *value) Kind() config.Kind {
 	}
 }
 
-func (v *value) Json() ([]byte, error) {
+func (v *value) Marshal() ([]byte, error) {
 	return v.result.MarshalJSON()
 }
